@@ -1,0 +1,2 @@
+javac Add.java
+javaAdd
