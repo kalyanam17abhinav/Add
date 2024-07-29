@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout code from SCM (e.g., Git)
-                git 'https://github.com/yourusername/your-repo.git'
+                git 'https://github.com/kalyanam17abhinav/Add.git'
             }
         }
         stage('Compile') {
