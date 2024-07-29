@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                     // Compile the Java program
-                    sh 'javac Add.java'
+                    bat 'javac Add.java'
                 }
             }
         }
@@ -14,7 +14,7 @@ pipeline {
             steps {
                 script {
                     // Run the Java program
-                    sh 'java Add'
+                    bat 'java Add'
                 }
             }
         }
